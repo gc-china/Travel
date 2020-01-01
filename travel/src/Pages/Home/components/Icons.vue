@@ -5,37 +5,44 @@
                                  src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
       </div>
       <p class="icon-desc">名宿酒店2</p>
-    </div><div class="icon">
+    </div>
+    <div class="icon">
       <div class="icon-img"><img class="icon-img-content"
                                  src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
       </div>
       <p class="icon-desc">名宿酒店2</p>
-    </div><div class="icon">
+    </div>
+    <div class="icon">
       <div class="icon-img"><img class="icon-img-content"
                                  src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
       </div>
       <p class="icon-desc">名宿酒店2</p>
-    </div><div class="icon">
+    </div>
+    <div class="icon">
       <div class="icon-img"><img class="icon-img-content"
                                  src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
       </div>
       <p class="icon-desc">名宿酒店</p>
-    </div><div class="icon">
+    </div>
+    <div class="icon">
       <div class="icon-img"><img class="icon-img-content"
                                  src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
       </div>
       <p class="icon-desc">名宿酒店</p>
-    </div><div class="icon">
+    </div>
+    <div class="icon">
       <div class="icon-img"><img class="icon-img-content"
                                  src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
       </div>
       <p class="icon-desc">名宿酒店</p>
-    </div><div class="icon">
+    </div>
+    <div class="icon">
       <div class="icon-img"><img class="icon-img-content"
                                  src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
       </div>
       <p class="icon-desc">名宿酒店</p>
-    </div><div class="icon">
+    </div>
+    <div class="icon">
       <div class="icon-img"><img class="icon-img-content"
                                  src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
       </div>
@@ -60,10 +67,14 @@
 <style scoped lang="stylus">
   @import '~styles/varibles.styl'
   @import '~styles/mixins.styl'
+  .icons >>> .swiper-container
+    height 0
+    padding-bottom 50%
 
   .icons
     padding-bottom 50%
     overflow hidden
+    margin-top .1rem
     height 0
 
     .icon
