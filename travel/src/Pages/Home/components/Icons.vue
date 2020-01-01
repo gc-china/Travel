@@ -4,17 +4,17 @@
       <div class="icon-img"><img class="icon-img-content"
                                  src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
       </div>
-      <p class="icon-desc">名宿酒店</p>
+      <p class="icon-desc">名宿酒店2</p>
     </div><div class="icon">
       <div class="icon-img"><img class="icon-img-content"
                                  src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
       </div>
-      <p class="icon-desc">名宿酒店</p>
+      <p class="icon-desc">名宿酒店2</p>
     </div><div class="icon">
       <div class="icon-img"><img class="icon-img-content"
                                  src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
       </div>
-      <p class="icon-desc">名宿酒店</p>
+      <p class="icon-desc">名宿酒店2</p>
     </div><div class="icon">
       <div class="icon-img"><img class="icon-img-content"
                                  src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
