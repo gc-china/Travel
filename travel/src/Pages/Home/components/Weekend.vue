@@ -2,14 +2,14 @@
   <div>
     <div class="title">周末去哪游</div>
     <ul>
-      <li class="item border-bottom" v-for="item of recommendedList" :key="item.id">
+      <li class="item border-bottom" v-for="item of weekendList" :key="item.id">
         <div class="item-img-swapper">
           <img class="item-img" :src="item.imgUrl"
                alt="">
         </div>
         <div class="item-info">
-          <p class="item-title">{{item.itemTitle}}</p>
-          <p class="item-desc">{{item.itemDesc}}</p>
+          <p class="item-title">{{item.title}}</p>
+          <p class="item-desc">{{item.desc}}</p>
         </div>
       </li>
     </ul>
@@ -19,30 +19,9 @@
 <script>
     export default {
         name: "HomeWeekend",
-        data() {
-            return {
-                recommendedList: [{
-                    id: '001',
-                    imgUrl: 'https://img1.qunarzz.com/sight/p0/1411/4f/146031f0bc5d7e0dd960d3f5bf0c9eca.water.jpg_600x330_6858704b.jpg',
-                    itemTitle: '大连圣亚海洋世界',
-                    itemDesc: '浪漫大连首站 浪漫的海洋主题公园',
-
-                }, {
-                    id: '001',
-                    imgUrl: 'https://img1.qunarzz.com/sight/p0/1411/4f/146031f0bc5d7e0dd960d3f5bf0c9eca.water.jpg_600x330_6858704b.jpg',
-                    itemTitle: '大连圣亚海洋世界',
-                    itemDesc: '浪漫大连首站 浪漫的海洋主题公园',
-
-                }, {
-                    id: '001',
-                    imgUrl: 'https://img1.qunarzz.com/sight/p0/1411/4f/146031f0bc5d7e0dd960d3f5bf0c9eca.water.jpg_600x330_6858704b.jpg',
-                    itemTitle: '大连圣亚海洋世界',
-                    itemDesc: '浪漫大连首站 浪漫的海洋主题公园',
-
-                }
-                ]
-            }
-        }
+        props: {
+            weekendList: Array
+        },
     }
 
 </script>

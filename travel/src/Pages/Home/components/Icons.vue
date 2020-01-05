@@ -1,58 +1,10 @@
 <template>
   <div class="icons">
-    <div class="icon">
+    <div class="icon" v-for="item of iconList" :key="item.id">
       <div class="icon-img"><img class="icon-img-content"
-                                 src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
+                                 :src="item.imgUrl" alt="">
       </div>
-      <p class="icon-desc">名宿酒店2</p>
-    </div>
-    <div class="icon">
-      <div class="icon-img"><img class="icon-img-content"
-                                 src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
-      </div>
-      <p class="icon-desc">名宿酒店2</p>
-    </div>
-    <div class="icon">
-      <div class="icon-img"><img class="icon-img-content"
-                                 src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
-      </div>
-      <p class="icon-desc">名宿酒店2</p>
-    </div>
-    <div class="icon">
-      <div class="icon-img"><img class="icon-img-content"
-                                 src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
-      </div>
-      <p class="icon-desc">名宿酒店</p>
-    </div>
-    <div class="icon">
-      <div class="icon-img"><img class="icon-img-content"
-                                 src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
-      </div>
-      <p class="icon-desc">名宿酒店</p>
-    </div>
-    <div class="icon">
-      <div class="icon-img"><img class="icon-img-content"
-                                 src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
-      </div>
-      <p class="icon-desc">名宿酒店</p>
-    </div>
-    <div class="icon">
-      <div class="icon-img"><img class="icon-img-content"
-                                 src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
-      </div>
-      <p class="icon-desc">名宿酒店</p>
-    </div>
-    <div class="icon">
-      <div class="icon-img"><img class="icon-img-content"
-                                 src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
-      </div>
-      <p class="icon-desc">名宿酒店</p>
-    </div>
-    <div class="icon">
-      <div class="icon-img"><img class="icon-img-content"
-                                 src="https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png " alt="">
-      </div>
-      <p class="icon-desc">名宿酒店</p>
+      <p class="icon-desc">{{item.desc}}</p>
     </div>
 
   </div>
@@ -60,7 +12,10 @@
 
 <script>
     export default {
-        name: "HomeIcons"
+        name: "HomeIcons",
+        props: {
+            iconList: Array
+        }
     }
 </script>
 
