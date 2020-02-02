@@ -14,6 +14,7 @@ import 'swiper/dist/css/swiper.css'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 //使用VueAwesomeSwiper 的插件
 Vue.use(VueAwesomeSwiper);
+
 fastClick.attach(document.body);
 Vue.config.productionTip = false;
 
